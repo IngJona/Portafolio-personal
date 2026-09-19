@@ -4,61 +4,390 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Personal</title>
+
+    <title>Portafolio Personal | Jhonatan C</title>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 
+
 <body>
 
-    <header>
-        <h1>Jhonatan</h1>
-        <p>Estudiante de Ingeniería de Software</p>
-    </header>
 
+<header>
+    <nav class="navbar">
 
-    <section>
-        <h2>Presentación</h2>
-        <p>
-            Soy estudiante interesado en desarrollo web,
-            programación y tecnología.
-        </p>
-    </section>
-
-
-    <section>
-        <h2>Historial Académico</h2>
+        <h1 class="logo">Jhonatan C</h1>
 
         <ul>
-            <li>Colegio</li>
-            <li>Universidad</li>
-            <li>Cursos y diplomados</li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#academico">Académico</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
 
-        <button>
-            Agregar taller de proyecto
-        </button>
-
-    </section>
+    </nav>
+</header>
 
 
-    <section>
-        <h2>Historial Laboral</h2>
 
-        <ul>
-            <li>Monitor académico</li>
-            <li>Consultor</li>
-        </ul>
-
-        <button>
-            Agregar experiencia
-        </button>
-
-    </section>
+<section id="inicio" class="presentacion">
 
 
-    <footer>
-        <p>Portafolio personal - 2026</p>
-    </footer>
+<div class="foto">
+
+<img src="img/foto.jpg" alt="Foto Jhonatan">
+
+</div>
+
+
+
+<div class="texto">
+
+<h2>Hola, soy Jhonatan 👋</h2>
+
+<h3>Estudiante de Ingeniería de Software</h3>
+
+
+<p>
+Soy estudiante apasionado por el desarrollo de software,
+la tecnología, inteligencia artificial y creación de soluciones
+digitales.
+</p>
+
+
+<a class="boton" href="#proyectos">
+Ver proyectos
+</a>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="academico">
+
+<h2>Historial Académico 🎓</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>Universidad</h3>
+
+<p>
+Universidad del Valle
+<br>
+Ingeniería de Software
+<br>
+2026 - Actualidad
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Colegio</h3>
+
+<p>
+Bachiller académico
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Cursos y Diplomados</h3>
+
+<p>
+Python desde cero
+<br>
+React y Desarrollo Web
+<br>
+Git y GitHub
+</p>
+
+
+</div>
+
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+<section id="experiencia">
+
+<h2>Historial Laboral 💼</h2>
+
+
+<div class="card experiencia">
+
+
+<h3>Practicante de Tecnología</h3>
+
+
+<p>
+
+Soporte técnico,
+gestión de usuarios,
+mantenimiento de equipos,
+Microsoft 365,
+GLPI y proyectos tecnológicos.
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section id="proyectos">
+
+
+<h2>Mis Proyectos 🚀</h2>
+
+
+<div class="cards">
+
+
+
+<div class="card">
+
+<h3>Zyros 🤖</h3>
+
+<p>
+Asistente personal basado en aprendizaje de Python,
+backend e inteligencia artificial.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>Gestor Documental 📂</h3>
+
+<p>
+Sistema web empresarial desarrollado con React,
+Tailwind y APIs.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>Cali Vigilante 🌎</h3>
+
+<p>
+Proyecto web desarrollado con HTML,
+CSS y JavaScript.
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>Riego Automatizado 🌱</h3>
+
+<p>
+Proyecto IoT usando Arduino,
+sensores y automatización.
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section id="habilidades">
+
+
+<h2>Habilidades 🛠️</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>Frontend</h3>
+
+<p>
+HTML
+<br>
+CSS
+<br>
+JavaScript
+<br>
+React
+</p>
+
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Backend</h3>
+
+<p>
+Python
+<br>
+APIs REST
+<br>
+Bases de datos
+</p>
+
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>Herramientas</h3>
+
+<p>
+Git
+<br>
+GitHub
+<br>
+VS Code
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<section id="contacto">
+
+
+<h2>Contacto 📩</h2>
+
+
+<p>
+Puedes encontrarme en:
+</p>
+
+
+<p>
+
+GitHub:
+<a href="#">Mi perfil</a>
+
+</p>
+
+
+<p>
+
+Correo:
+jhonatancortes2021@gmail.com
+
+</p>
+
+
+
+</section>
+
+
+
+
+
+
+
+<footer>
+
+<p>
+Portafolio Personal - 2026 | Jhonatan C
+</p>
+
+
+</footer>
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
+
+
+<footer>
+
+    <p>
+        Portafolio personal - 2026
+    </p>
+
+</footer>
+
+
+
+
+
+<script src="script.js"></script>
 
 
 </body>
